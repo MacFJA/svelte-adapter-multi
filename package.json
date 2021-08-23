@@ -1,0 +1,36 @@
+{
+  "name": "@macfja/svelte-multi-adapter",
+  "version": "1.0.0",
+  "description": "A Svelte adapter that launch other adapters",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    "import": "./index.js"
+  },
+  "keywords": [
+    "sveltejs",
+    "svelte",
+    "sveltekit",
+    "sveltekit-adapter",
+    "adapter"
+  ],
+  "author": "MacFJA",
+  "license": "MIT",
+  "devDependencies": {
+    "@sveltejs/kit": "^1.0.0-next.156",
+    "svelte": "^3.42.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macfja/svelte-adapter-multi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/macfja/svelte-adapter-multi/issues"
+  },
+  "homepage": "https://github.com/macfja/svelte-adapter-multi#readme",
+  "files": [
+    "index.js",
+    "LICENSE.md",
+    "README.md"
+  ]
+}
