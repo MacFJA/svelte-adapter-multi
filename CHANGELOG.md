@@ -6,9 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1]
+
+### Fixed
+
+- Async/Await doing nothing ([Issue#1])
+
 ## [1.0.0]
 
 First version
 
-[Unreleased]: https://github.com/MacFJA/svelte-adapter-multi/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/MacFJA/svelte-adapter-multi/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/MacFJA/svelte-adapter-multi/releases/tag/1.0.1
 [1.0.0]: https://github.com/MacFJA/svelte-adapter-multi/releases/tag/1.0.0
+
+[Issue#1]: https://github.com/MacFJA/svelte-adapter-multi/issues/1

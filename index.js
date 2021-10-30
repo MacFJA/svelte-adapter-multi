@@ -3,7 +3,9 @@ export default function (adapters) {
         name: '@macfja/svelte-adapter-multi',
 
         async adapt(argument) {
-            await adapters.forEach(item => Promise.resolve(item).then(resolved => resolved.adapt(argument)))
+            await Promise.all(adapters.map(item =>
+                Promise.resolve(item).then(resolved => resolved.adapt(argument))
+            ))
         }
     };
 }
