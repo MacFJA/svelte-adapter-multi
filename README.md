@@ -4,8 +4,11 @@ An adapter to launch multiple adapter
 
 ## Installation
 
-```
+```shell
+# Npm:
 npm install @macfja/svelte-adapter-multi
+# Yarn
+yarn install @macfja/svelte-multi-adapter
 ```
 
 ## Usage
