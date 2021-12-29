@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2]
+
+### Fixed
+
+- Update README to have the right package name ([Issues#2])
+
+### Changed
+
+- Add installation instruction for Yarn and PNPM (Extracted form [PR#3])
+
 ## [1.0.1]
 
 ### Fixed
@@ -21,3 +31,5 @@ First version
 [1.0.0]: https://github.com/MacFJA/svelte-adapter-multi/releases/tag/1.0.0
 
 [Issue#1]: https://github.com/MacFJA/svelte-adapter-multi/issues/1
+[Issue#2]: https://github.com/MacFJA/svelte-adapter-multi/issues/2
+[PR#3]: https://github.com/MacFJA/svelte-adapter-multi/pull/3

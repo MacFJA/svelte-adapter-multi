@@ -4,8 +4,12 @@ An adapter to launch multiple adapter
 
 ## Installation
 
-```
-npm install @macfja/svelte-adapter-multi
+```bash
+npm install --save-dev @macfja/svelte-multi-adapter
+# or
+pnpm add --save-dev @macfja/svelte-multi-adapter
+# or
+yarn add --dev @macfja/svelte-multi-adapter
 ```
 
 ## Usage
@@ -14,7 +18,7 @@ Inside `svelte.config.js`:
 ```javascript
 import staticAdapter from '@sveltejs/adapter-static'
 import nodeAdapter from '@sveltejs/adapter-node'
-import multiAdapter from '@macfja/svelte-adapter-multi'
+import multiAdapter from '@macfja/svelte-multi-adapter'
 
 const config = {
     kit: {
