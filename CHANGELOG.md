@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Update README to have the right package name ([Issues#2])
+- Update README to have the right package name ([Issue#2])
 
 ### Changed
 
@@ -26,7 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 First version
 
-[Unreleased]: https://github.com/MacFJA/svelte-adapter-multi/compare/1.0.1...HEAD
+[Unreleased]: https://github.com/MacFJA/svelte-adapter-multi/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/MacFJA/svelte-adapter-multi/releases/tag/1.0.2
 [1.0.1]: https://github.com/MacFJA/svelte-adapter-multi/releases/tag/1.0.1
 [1.0.0]: https://github.com/MacFJA/svelte-adapter-multi/releases/tag/1.0.0
 
